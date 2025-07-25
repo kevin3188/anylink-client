@@ -22,21 +22,21 @@ jobs:
           # qt-tools: 'tools_ifw'
           installer-name: stemstar-linux-amd64.run
         - build: linux
-          os: ubuntu-20.04
+          os: ubuntu-22.04
           qt: 6.4.3
           arch: gcc_64
           qt-modules: 'qtwebsockets'
           # qt-tools: 'tools_ifw'
           installer-name: stemstar-linux-amd64.run
         - build: windows
-          os: windows-2019
+          os: windows-2024
           qt: 6.6.2
           arch: win64_msvc2019_64
           qt-modules: 'qtwebsockets'
           qt-tools: 'tools_qtcreator'
           installer-name: stemstar-windows10-amd64.exe
         - build: macos
-          os: macos-12
+          os: macos-14
           qt: 6.6.2
           arch: clang_64
           qt-modules: 'qtwebsockets'
