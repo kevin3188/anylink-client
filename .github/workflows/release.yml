@@ -29,7 +29,7 @@ jobs:
           # qt-tools: 'tools_ifw'
           installer-name: stemstar-linux-amd64.run
         - build: windows
-          os: windows-2024
+          os: windows-2022
           qt: 6.6.2
           arch: win64_msvc2019_64
           qt-modules: 'qtwebsockets'
